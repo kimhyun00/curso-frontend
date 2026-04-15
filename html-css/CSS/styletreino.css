@@ -1,0 +1,133 @@
+
+/* arquivo css com os estilos dos elementos das páginas*/
+
+* {
+ box-sizing: border-box; /*oq colocar aqui vai valer pra todo o corpo*/
+} 
+
+html{ /*elemento raiz, tudo que colocar aqui aplica pro corpo todo porém respeita
+		a sequencia da ierarquia*/
+	margin: 5px;
+	padding: 5px;
+	font-size: 100%;
+}
+
+body{ /*corpo da página*/
+	background-color: white;
+}
+
+
+header{
+	background: linear-gradient(#2c5f9e,#3f7fcb);
+	padding: 10px;
+	margin: 5px;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 15px #20454d;
+}
+
+.jogos {
+    display: grid; /*grid a forma de mostrar os títulos*/
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); /*quantidade de grids e de linhas*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.miniatura {
+	margin: 5px;
+	width: 300px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;          /* altura padrão pra todas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;    /* NÃO corta */
+    border-radius: 10px;
+}
+
+.detalhes{
+	text-align: justify;
+}
+
+a{
+	font-size: 45px;
+	text-decoration: none;
+	color: #2f6fb2;
+}
+
+a:visited{
+	color: #2f6fb2;
+}
+a:hover{
+	color: darkblue;
+}
+
+
+
+dt{
+	font-size: 30px;
+	background-color: white;
+    color: #2f6fb2;
+    margin: 10px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 1px 15px;
+        
+}
+
+dl{
+	background-color: #98FB98;
+	margin-block: 20px;
+	text-align: center;
+	padding: 15px 15px;
+
+}
+
+
+p {
+	text-indent: 30px;
+}
+
+dd{
+	margin: 15px;
+	border: 1px solid;
+	padding: 15px 15px;
+	text-align: justify;
+
+}
+
+#quest1{
+	margin: 3px;
+	font-size: 30px;
+	border: 1px solid;
+	padding: 10px 1px;
+}
+
+#quest2{
+	margin: 3px;
+	font-size: 30px;
+	border: 1px solid;
+	padding: 10px 1px;
+	}
+
+#voltar{
+	background-color: greenyellow;
+	font-size: 20px;
+}
+
