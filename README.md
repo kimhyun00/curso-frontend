@@ -22,6 +22,9 @@ Arquivo B  | Versão 1 | Versão 2
 ## Commits
 Informação de alteração
  - após testado todo seu código
+ - git add * 
+ - git commit -m "mensagem para aparecer"
+ - git push (enviar alterações para o repositório)
 
 ## GitFlow
 Fluxo do Git
@@ -33,5 +36,12 @@ são ramificações /  versões paralelas
  - develop
  - DOD Definition of Done: critérios de aceite
  - versionamento 1.0.0
- 
+
+ git checkout -b dev (cria uma branch)
+ git checkout main (mudar de branch)
+
+
+## Merge
+Mescla de branchs
+
 
